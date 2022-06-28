@@ -1,3 +1,3 @@
-# Wordle remmake with Svelte
+# Wordle with Svelte
 
 
