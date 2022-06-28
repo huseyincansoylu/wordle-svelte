@@ -11,6 +11,7 @@ $: if ($message) {
 	} 
 
 $: console.log($GAME_WORD)
+$: console.log($colors)
 
 
 function playAgain() {

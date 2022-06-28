@@ -82,6 +82,8 @@
                     duplicateChars.add(char)
 
                     close = [...close, char]
+                }else {
+                    newColorsBoard[prevAttempt][i] = "bg-[#787C7E] dark:bg-[#3A3A3C] text-white border-0";
                 }
              } else {
                  newColorsBoard[prevAttempt][i] = "bg-[#787C7E] dark:bg-[#3A3A3C] text-white border-0";
