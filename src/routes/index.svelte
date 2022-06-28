@@ -10,10 +10,6 @@ $: if ($message) {
 		setTimeout(() => $message = "", 750)
 	} 
 
-$: console.log($GAME_WORD)
-$: console.log($colors)
-
-
 function playAgain() {
     gameOver.set(false)
     colors.set(createGrid())
