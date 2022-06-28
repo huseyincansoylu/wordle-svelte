@@ -5,21 +5,21 @@ import Settings from "./Settings.svelte";
 
           function openAboutModal() {
              isModalOpen.set(true)
+              //@ts-ignore
              activeModal.set(About)
          }
 
          function openSettingsModal() {
              isModalOpen.set(true)
+             //@ts-ignore
              activeModal.set(Settings)
          }
 </script>
 
 
 <header class="w-full border-b dark:border-gray-500 flex items-center font-bold h-12 text-lg px-4 ">
-     <div  class="cursor-pointer text-gray-500 dark:text-white">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-          <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
-        </svg>
+     <div  class="text-gray-500 dark:text-white">
+          <img src="/favicon.png" alt="logo" class="h-8 w-8"> 
      </div>
      <div class="text-3xl mx-auto pl-14">Wordle</div>
      <div class="flex space-x-2 text-gray-500 cursor-pointer dark:text-white">
